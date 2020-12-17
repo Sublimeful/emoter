@@ -43,6 +43,8 @@ compile_commands.json
 dist/
 workspace.code-workspace
 release-builds
+key.txt
+key.txt.pub
 
 # npm package
 /npm/dist
