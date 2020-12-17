@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emoter!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body style="background-color: #242424">
+    <div>
+      <button id="path-button">Set Emote Path</button>
+      <div id="emote-info">
+        <img id="emote-img" height="32px" width="32px" />
+        <p id="emote-name"></p>
+      </div>
+    </div>
+    <input
+      type="text"
+      id="search-bar"
+      placeholder="Search for emotes here!"
+      onfocus="this.placeholder = ''"
+      onblur="this.placeholder = 'Search for emotes here!'"
+    />
+
+    <div id="emote-list" style="text-align: left; padding: initial"></div>
+
+    <!--scripts-->
+    <script src="search_bar.js"></script>
+    <script src="emotes_render.js"></script>
+    <script src="path_select.js"></script>
+    <script src="emote_info.js"></script>
+    <script src="emote_resizer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "emoter",
+  "version": "1.0.0",
+  "description": "Emoter emotes for you!",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "emoter",
+    "win": {
+      "target": "NSIS",
+      "icon": "assets/icons/win/icon.ico"
+    }
+  },
+  "author": "Sublimeful",
+  "license": "ISC",
+  "dependencies": {
+    "electron-store": "^5.2.0",
+    "gifffer": "^1.5.4",
+    "libgif": "0.0.3"
+  },
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  },
+  "postinstall": "electron-builder install-app-deps"
+}
