@@ -2,6 +2,8 @@ Welcome to emoter, it is an all purpose reaction image organizer!
 
 Simply create a main directory with many subdirectories within it containing your images, for example:
 
+(View in raw mode please)
+
 EMOJIS(Main Directory)
    |
    |__Angry Emojis
